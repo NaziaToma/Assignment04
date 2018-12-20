@@ -9,7 +9,7 @@ public:
 	SelectionSort();
 	~SelectionSort();
 	void SelectionSorter(int arr[], int arr_size);
-	void printArray(int arr[], int size);
+	void printArray(int arr[], int arr_size);
 };
 
 
