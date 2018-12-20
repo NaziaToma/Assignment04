@@ -22,12 +22,12 @@ int main()
 	MergeSort num1;
 	num1.MergeSorter(arr, 8);
 	cout << "Sorted array: " << endl;
-	num.printArray(arr, 8);
+	num1.printArray(arr, 8);
 
 	BubbleSort num2;
 	num2.BubbleSorter(arr, 8);
 	cout << "Sorted array: " << endl;
-	num.printArray(arr, 8);
+	num2.printArray(arr, 8);
 
     return 0;
 }
