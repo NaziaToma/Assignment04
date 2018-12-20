@@ -1,5 +1,7 @@
 #include "SelectionSort.h" 
 #include "InsertionSort.h" 
+#include "MergeSort.h" 
+#include "BubbleSort.h"
 #include <iostream>
 using namespace std;
 
@@ -16,6 +18,16 @@ int main()
 	cout << "Sorted array: " << endl;
 	num.printArray(arr, 8);
 
+	
+	MergeSort num1;
+	num1.MergeSorter(arr, 8);
+	cout << "Sorted array: " << endl;
+	num.printArray(arr, 8);
 
-	return 0;
+	BubbleSort num2;
+	num2.BubbleSorter(arr, 8);
+	cout << "Sorted array: " << endl;
+	num.printArray(arr, 8);
+
+    return 0;
 }
