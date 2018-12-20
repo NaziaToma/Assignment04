@@ -32,10 +32,10 @@ void SelectionSort::SelectionSorter(int arr[], int arr_size)
 }
 
 
-void SelectionSort::printArray(int arr[], int size)
+void SelectionSort::printArray(int arr[], int arr_size)
 {
 	int i;
-	for (i = 0; i < size; i++) {
+	for (i = 0; i < arr_size; i++) {
 		cout << arr[i] << endl;
 	}
 

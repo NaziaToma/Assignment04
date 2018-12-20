@@ -1,4 +1,5 @@
 #include "SelectionSort.h" 
+#include "InsertionSort.h" 
 #include <iostream>
 using namespace std;
 
@@ -9,5 +10,12 @@ int main()
 	number.SelectionSorter(arr, 8);
 	cout << "Sorted array: " << endl;
 	number.printArray(arr, 8);
+
+	InsertionSort num;
+	num.InsertionSorter(arr, 8);
+	cout << "Sorted array: " << endl;
+	num.printArray(arr, 8);
+
+
 	return 0;
 }
